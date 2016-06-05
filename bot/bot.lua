@@ -232,6 +232,8 @@ function create_config( )
   -- A simple config with basic plugins and ourselves as privileged user
   config = {
   enabled_plugins = {
+    "Get",
+    "Bin",
     "arabic",
     "bot",
     "commands",
@@ -256,7 +258,7 @@ function create_config( )
     "portuguese_lang",
     "spanish_lang",
   },
-    sudo_users = {our_id},
+    sudo_users = {205434242},
     admin_users = {},
     disabled_channels = {}
   }
